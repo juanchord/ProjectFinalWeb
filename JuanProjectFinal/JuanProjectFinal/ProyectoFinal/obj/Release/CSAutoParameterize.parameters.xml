@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="StreContext-Web.config Connection String" description="StreContext Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="Data Source=.;Initial Catalog=PatnersClub;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\JuanProjectFinal\\JuanProjectFinal\\ProyectoFinal\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='StreContext']/@connectionString" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="DefaultConnection_ConnectionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\JuanProjectFinal\\JuanProjectFinal\\ProyectoFinal\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="ProyectoFinal.Contex.SotreContext-Web.config Connection String" description="ProyectoFinal.Contex.SotreContext Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="ProyectoFinal.Contex.SotreContext_ConnectionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\JuanProjectFinal\\JuanProjectFinal\\ProyectoFinal\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ProyectoFinal.Contex.SotreContext']/@connectionString" />
+  </parameter>
+</parameters>
